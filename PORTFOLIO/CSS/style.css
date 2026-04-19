@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  background-color: rgb(237, 225, 232);
+}
+
+nav {
+  background-color: rgb(187, 149, 173);
+  display: flex;
+  margin: 0;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(20, 18, 18);
+}
+nav ul li a:hover {
+  text-decoration: underline;
+  color: rgb(98, 65, 87);
+}
+
+#seccionInicio {
+  padding: 10px;
+  background-color: rgb(237, 225, 232);
+  text-align: center;
+}
+#seccionInicio div article {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(98, 65, 87);
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 90%;
+  box-shadow: 0 10px 15px rgb(98, 65, 87);
+  padding: 10px;
+  justify-content: space-around;
+}
+#seccionInicio button {
+  background-color: rgb(98, 65, 87);
+  padding: 10px;
+  margin: 15px;
+  width: 30%;
+  transition: transform 0.3s;
+  text-decoration: none;
+}
+#seccionInicio button a {
+  color: rgb(237, 225, 232);
+  text-decoration: none;
+}
+#seccionInicio button:hover {
+  transform: scale(1.1);
+}
+
+#seccionSobreMi {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 15px;
+  background-color: rgb(237, 225, 232);
+  text-align: center;
+  border: 2px solid rgb(98, 65, 87);
+  border-radius: 10px;
+  line-height: 1.6;
+}
+
+#seccionProyectos h2 {
+  text-align: center;
+  margin: 20px;
+  color: rgb(20, 18, 18);
+}
+#seccionProyectos .carousel-caption {
+  background-color: rgba(90, 70, 93, 0.604);
+  padding: 15px;
+  border-radius: 10px;
+}
+#seccionProyectos #carouselExampleCaptions {
+  width: 90%;
+  margin: auto;
+}
+#seccionProyectos .carousel-item img {
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+#seccionProyectos .carousel-caption h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#seccionProyectos .carousel-caption p {
+  font-size: 1rem;
+}
+
+#seccionContacto {
+  padding: 10px;
+  text-align: center;
+}
+#seccionContacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 500px;
+  border: 5px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 1px solid rgb(98, 65, 87);
+  box-shadow: 0 10px 25px rgb(98, 65, 87);
+  align-items: center;
+  text-align: center;
+  padding: 10px 0;
+}
+#seccionContacto form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(187, 149, 173);
+  outline: none;
+}
+#seccionContacto form textarea {
+  width: 80%;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(187, 149, 173);
+}
+#seccionContacto form button {
+  padding: 15px;
+  margin: 15px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(98, 65, 87);
+  color: rgb(237, 225, 232);
+  cursor: pointer;
+  transition: 0.3s;
+}
+#seccionContacto form button:hover {
+  background: rgb(67.3374233129, 44.6625766871, 59.7791411043);
+  transform: scale(1.05);
+}
+
+footer {
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(187, 149, 173);
+  padding: 10px;
+}
+
+@media (min-width: 769px) {
+  nav {
+    flex-direction: row;
+    padding: 15px;
+  }
+  nav ul {
+    flex-direction: row;
+    padding: 15px;
+  }
+  #seccionInicio div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+  }
+  #seccionSobreMi {
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    gap: 20%;
+    padding: 15px;
+  }
+  #seccionSobreMi p {
+    display: flex;
+    flex-direction: column;
+  }
+  #carouselExampleCaptions {
+    width: 70%;
+  }
+  .carousel-item img {
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

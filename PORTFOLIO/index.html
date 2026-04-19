@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Milagros Rodriguez</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <nav>
+        <h1>Milagros Rodriguez</h1>
+        <ul>
+            <li>
+                <a href="#seccionInicio">Inicio</a>
+            </li>
+            <li>
+                <a href="#seccionSobreMi">Sobre Mi</a>
+            </li>
+            <li>
+                <a href="#seccionProyectos">Proyectos</a>
+            </li>
+            <li>
+                <a href="#seccionContacto">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section id="seccionInicio">
+            <h2>Transformo ideas en páginas web</h2>
+            <p>Desarrolladora web en formación, creando páginas modernas y funcionales.</p>
+            <div>
+                <article>
+                    <h3>Lleva tu negocio a otro nivel.</h3>
+                    <p>Diseñamos tu página web profesional,
+                        para impulsar tu presencia online y tus ventas. </p>
+                </article>
+                <article>
+                    <h3>Diseño personalizado</h3>
+                    <p>Cada sitio se adapta a tus necesidades,
+                        con identidad propia y estilo único.</p>
+                </article>
+                <article>
+                    <h3>Sitios seguros y confiables</h3>
+                    <p>Creación de páginas que transmiten confianza.</p>
+                </article>
+
+            </div>
+            <button><a href="#seccionContacto">Contactame</a></button>
+        </section>
+        <section id="seccionSobreMi">
+            <h2>Hola, soy Milagros</h2>
+            <div>
+                <p>
+                    Desarrolladora web en formación,
+                    con interés en crear sitios modernos,
+                    funcionales y adaptados a distintos dispositivos.</p>
+                <p>
+                    Actualmente trabajo con HTML, CSS, Sass y
+                    diseño responsive,
+                    enfocándome en mejorar tanto
+                    la parte visual como la experiencia del usuario.</p>
+                <p>
+                    Además cuento con experiencia en la creación
+                    de productos personalizados mediante impresión 3D,
+                    lo que me permitió desarrollar habilidades como la creatividad,
+                    la resolución de problemas y la atención al detalle.</p>
+                <p>
+                    Me considero una persona responsable, comprometida y
+                    con muchas ganas de seguir creciendo.
+                    Disfruto enfrentar nuevos desafíos y
+                    mejorar constantemente mis habilidades,
+                    con el objetivo de crecer profesionalmente dentro
+                    del mundo del desarrollo web y crear soluciones
+                    digitales cada vez más completas y eficientes.
+                </p>
+            </div>
+
+        </section>
+        <section id="seccionProyectos">
+            <h2>Mis Proyectos</h2>
+            <div id=" carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://www.avancecomunicacion.com/wp-content/uploads/2021/01/57e0d2454f51aa14f1dc84609629357a123fdee1574c704f742f7bdd9f45c25f_640.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Proyecto 1</h5>
+                            <p>Ingreso para fiesta Electrónica.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.avancecomunicacion.com/wp-content/uploads/2021/01/57e0d2454f51aa14f1dc84609629357a123fdee1574c704f742f7bdd9f45c25f_640.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Proyecto 2</h5>
+                            <p>Pagina para empresa de construcciones.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.avancecomunicacion.com/wp-content/uploads/2021/01/57e0d2454f51aa14f1dc84609629357a123fdee1574c704f742f7bdd9f45c25f_640.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Proyecto 3</h5>
+                            <p>Pagina para empresa de barras moviles.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section id="seccionContacto">
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" minlength="3" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Ingrese su email" required>
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" name="telefono" id="telefono" placeholder="Ingrese su telefono" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" placeholder="Escriba su mensaje"></textarea>
+
+                <button type="submit">Consultar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h4>© 2026 Milagros Rodriguez </h4>
+        <p>Todos los derechos reservados</p>
+
+    </footer>
+</body>
+
+</html>
