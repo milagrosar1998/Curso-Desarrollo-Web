@@ -40,3 +40,5 @@ console.log (contador)
 
 // Ejercicio extra
 
+// Consultar Respuesta
+
